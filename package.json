@@ -1,0 +1,20 @@
+{
+  "name": "pokedex_service",
+  "version": "1.0.0",
+  "description": "pokedex node module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vu Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "request": "*"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-mocha": "*",
+    "chai": "*",
+    "mocha": "*"
+  }
+}
