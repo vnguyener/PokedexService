@@ -10,7 +10,7 @@ describe("get pokemon data", () => {
 
     it('with id: gets pokemon json obj', (done) => {
         let str = '';
-        let pokemon;
+        let pokemon = {};
 
         pokedex.getPokemonById(1)
             .on('data', (res) => {
@@ -27,7 +27,7 @@ describe("get pokemon data", () => {
 
     it('with name: gets pokemon json obj', (done) => {
         let str = '';
-        let pokemon;
+        let pokemon = {};
 
         pokedex.getPokemonByName("pikachu")
             .on('data', (res) => {
@@ -46,7 +46,7 @@ describe("get pokemon data", () => {
 describe("get move data", () => {
     it('with name: gets move json obj', (done) => {
         let str = '';
-        let move;
+        let move = {};
 
         pokedex.getMoveByName("tackle")
             .on('data', (res) => {
